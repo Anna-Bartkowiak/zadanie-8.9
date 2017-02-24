@@ -5,8 +5,9 @@ function rysujChoinke(ileLini) {
     //console.log('wartosc i: ' + i);
     for(var j=0; j<i*2-1; j++) {
       star +='*';
-      console.log(star);// + '    wartosc j:' +j);
+      //console.log(star);// + '    wartosc j:' +j);
     }
+    console.log(star);
   }
 }
 rysujChoinke(ileLini);
